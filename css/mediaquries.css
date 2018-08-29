@@ -1,0 +1,538 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 275px) and (max-width : 479px) {
+    .full-content {
+        margin-right: 25px;
+    }
+    header {
+        margin-left: 15px;
+        background-position: -30px;
+    }
+    .top-first-div{
+        margin-top: -10px;
+    }
+    .top-ul,.top-menu{
+        position: relative;
+    }
+    .top-ul{
+        top: 25px;
+        left: -6px;
+    }
+    .top-menu{
+        top: -20px;
+        margin-left: 70px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .menu {
+        margin-right: -15px;
+    }
+    .main-menu {
+        margin-left: 0;
+    }
+    .menu .navbar-toggle{
+        border: 1px solid #30799c;
+        margin-top: 4px;
+        padding: 6px;
+        cursor: pointer;
+        float: left;
+    }
+    .menu .navbar-toggle .icon-bar{
+        background: #fff;
+    }
+    .menu .container-fluid>.navbar-collapse{
+        background: #b3dbdb;
+        margin: 0 -30px;
+    }
+    .menu .navbar{
+        z-index: 999;
+    }
+    .main-menu li {
+        border-right: none;
+    }
+    .left-menu{
+        display: none;
+    }
+    .search{
+        top: -67px;
+        padding: 15px;
+    }
+    .search .navbar-form{
+        margin-left: 20px;
+        left: 85px;
+        top: -20px;
+    }
+    .search .navbar-form .col-sm-10{
+        float: left;
+        margin-right: -20px;
+    }
+    .search-btn{
+        float: left;
+    }
+    .social-share {
+        margin-left: 35px;
+        overflow: hidden;
+        clear: both;
+        top: -50px;
+    }
+    .right-menu{
+        margin-top: 40px;
+        text-align: center;
+        margin-right: 50px;
+    }
+    .left-content{
+        background: none;
+    }
+    .box-banner img{
+        width: 100%;
+    }
+    .middle-content .box-content{
+        margin-left: -5px;
+    }
+    .right-content .box-content{
+        margin-right: -5px;
+        left: 0;
+    } 
+    .advertising {
+        width: 325px;
+        top: -40px;
+    }
+    marquee{
+        width: 220px;
+    }
+    .middle-column {
+        margin-top: -30px;
+        margin-left: 25px;
+        margin-right: -3px;
+    }
+    .ribon,.bottom-ribon,.bottom-img{
+        display: none;
+    }
+    .bottom{
+        background-image: none;
+        height: 75px;
+        margin-left: 8px;
+        padding-top: 15px;
+        background-color: #3480a2;
+    }
+    .bottom-menu, .copy-right {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    /*=========================Contact Us==============================*/
+
+    .contact-page .main-content {
+        margin-top: -75px;
+        background-position: -30px
+    }
+    .library .col-sm-9{
+        margin: 0 -15px;
+    }
+    .library .google-map{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+
+    /*===============================Women====================================*/
+
+    .women-body,.en-body{
+        overflow-x: hidden;
+    }
+    .women-content {
+        background-position: 0px 0px;
+    }
+    .women-content .top-ul {
+        left: -30px;
+    }
+    .women-content .top-menu {
+        left: -30px;
+    }
+    .women-content .menu .navbar-toggle {
+        border: 1px solid #ba1675;
+    }
+    .women-content .main-menu {
+        margin-left: -30px;
+    }
+    .women-main-content .search{
+        top: -65px;
+        left: 20px;
+    }
+    .women-main-content .social-share {
+        top: -75px;
+        text-align: center;
+    }
+    .women-menu {
+        margin-top: -55px;
+    }
+    .women-main-content .left-column,.women-main-content .right-column{
+        width: 100%;
+    }
+    .women-main-content .left-column{
+        text-align: center;
+    }
+    .women-main-content .right-column{
+        top: -15px;
+    }
+    .women-main-content .middle-column {
+        margin-left: 0;
+        margin-right: 0;
+        clear: both;
+    }
+    .middlebox .TextContent .Text{
+        margin-left: -10px;
+    }
+    .women-left-box {
+        float: none;
+        clear: both;
+        padding-top: 5px;
+    }
+     .small-advertising {
+        width: 100%;
+    }
+    .women-social-share{
+        clear: both;
+    }
+    .LeftBox{
+        clear: both;
+        float: none;
+    }
+    .women-footer,.en-content .bottom {
+        width: auto;
+        height: 60px;
+        margin: 0 -15px;
+    }
+    .women-footer .bottom-menu,.en-content .bottom .bottom-menu{
+        padding-top: 10px;
+    }
+
+
+    /*====================================en===========================*/
+
+    .en-content header {
+        background-position: -30px 10px;
+        margin-left: 0;
+    }
+    .en-content .main-menu {
+        margin-left: 15px;
+    }
+    .en-content .left-column {
+        text-align: left;
+    }
+    .en-content .MenuContainer{
+        position: relative;
+        top: -50px;
+        margin-top: 0;
+    }
+    .en-content .women-main-content .right-column, .single-page .women-main-content .right-column {
+        top: 35px;
+        margin-bottom: 50px;
+    }
+    .women-main-content .middle-column{
+        margin-top: -15px;
+    }
+    .en-left-box {
+        float: none;
+        clear: both;
+    }
+    .en-content .women-main-content .advertising {
+        margin-top: -45px;
+    }
+    .latest-article, .occation {
+        width: 100%;
+    }
+    .LeftBox img{
+        width: 48%;
+    }
+
+    /*=========================Single-page=======================*/
+
+    .single-page .ArticleDetails h4 div{
+        margin-right: 30px !important;
+    }
+    .Related {
+        margin-bottom: 15px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+    .full-content {
+        margin-right: 25px;
+    }
+    header {
+        margin-left: 15px;
+        background-position: -30px;
+    }
+    .top-first-div{
+        margin-top: -10px;
+    }
+    .top-ul,.top-menu{
+        position: relative;
+    }
+    .top-ul{
+        top: 25px;
+        left: -6px;
+    }
+    .top-menu{
+        top: -20px;
+        margin-left: 70px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .menu {
+        margin-right: -15px;
+    }
+    .main-menu {
+        margin-left: 0;
+    }
+    .menu .navbar-toggle{
+        border: 1px solid #30799c;
+        margin-top: 4px;
+        padding: 6px;
+        cursor: pointer;
+        float: left;
+    }
+    .menu .navbar-toggle .icon-bar{
+        background: #fff;
+    }
+    .menu .container-fluid>.navbar-collapse{
+        background: #b3dbdb;
+        margin: 0 -30px;
+    }
+    .menu .navbar{
+        z-index: 999;
+    }
+    .main-menu li {
+        border-right: none;
+    }
+    .left-menu{
+        display: none;
+    }
+    .search{
+        top: -67px;
+        padding: 15px;
+    }
+    .search .navbar-form{
+        margin-left: 20px;
+        left: 85px;
+        top: -20px;
+    }
+    .search .navbar-form .col-sm-10{
+        float: left;
+        margin-right: -20px;
+    }
+    .search-btn{
+        float: left;
+    }
+    .social-share {
+        margin-left: 35px;
+        overflow: hidden;
+        clear: both;
+        top: -50px;
+    }
+    .right-menu{
+        margin-top: 40px;
+        text-align: center;
+        margin-right: 50px;
+    }
+    .left-content{
+        background: none;
+    }
+    .box-banner img{
+        width: 100%;
+    }
+    .middle-content .box-content{
+        margin-left: -5px;
+    }
+    .right-content .box-content{
+        margin-right: -5px;
+        left: 0;
+    } 
+    .advertising {
+        width: 325px;
+        top: -40px;
+    }
+    marquee{
+        width: 220px;
+    }
+    .middle-column {
+        margin-top: -30px;
+        margin-left: 25px;
+        margin-right: -3px;
+    }
+    .ribon,.bottom-ribon,.bottom-img{
+        display: none;
+    }
+    .bottom{
+        background-image: none;
+        height: 75px;
+        margin-left: 8px;
+        padding-top: 15px;
+        background-color: #3480a2;
+    }
+    .bottom-menu, .copy-right {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    /*=========================Contact Us==============================*/
+
+    .contact-page .main-content {
+        margin-top: -75px;
+        background-position: -30px
+    }
+    .library .col-sm-9{
+        margin: 0 -15px;
+    }
+    .library .google-map{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+
+    /*===============================Women====================================*/
+
+    .women-body,.en-body{
+        overflow-x: hidden;
+    }
+    .women-content {
+        background-position: 0px 0px;
+    }
+    .women-content .top-ul {
+        left: -30px;
+    }
+    .women-content .top-menu {
+        left: -30px;
+    }
+    .women-content .menu .navbar-toggle {
+        border: 1px solid #ba1675;
+    }
+    .women-content .main-menu {
+        margin-left: -30px;
+    }
+    .women-main-content .search{
+        top: -65px;
+        left: 20px;
+    }
+    .women-main-content .social-share {
+        top: -75px;
+        text-align: center;
+    }
+    .women-menu {
+        margin-top: -55px;
+    }
+    .women-main-content .left-column,.women-main-content .right-column{
+        width: 100%;
+    }
+    .women-main-content .left-column{
+        text-align: center;
+    }
+    .women-main-content .right-column{
+        top: -15px;
+    }
+    .women-main-content .middle-column {
+        margin-left: 0;
+        margin-right: 0;
+        clear: both;
+    }
+    .middlebox .TextContent .Text{
+        margin-left: -10px;
+    }
+    .women-left-box {
+        float: none;
+        clear: both;
+        padding-top: 5px;
+    }
+     .small-advertising {
+        width: 100%;
+    }
+    .women-social-share{
+        clear: both;
+    }
+    .LeftBox{
+        clear: both;
+        float: none;
+    }
+    .women-footer,.en-content .bottom {
+        width: auto;
+        height: 60px;
+        margin: 0 -15px;
+    }
+    .women-footer .bottom-menu,.en-content .bottom .bottom-menu{
+        padding-top: 10px;
+    }
+
+
+    /*====================================en===========================*/
+
+    .en-content header {
+        background-position: -30px 10px;
+        margin-left: 0;
+    }
+    .en-content .main-menu {
+        margin-left: 15px;
+    }
+    .en-content .left-column {
+        text-align: left;
+    }
+    .en-content .MenuContainer{
+        position: relative;
+        top: -50px;
+        margin-top: 0;
+    }
+    .en-content .women-main-content .right-column, .single-page .women-main-content .right-column {
+        top: 35px;
+        margin-bottom: 50px;
+    }
+    .women-main-content .middle-column{
+        margin-top: -15px;
+    }
+    .en-left-box {
+        float: none;
+        clear: both;
+    }
+    .en-content .women-main-content .advertising {
+        margin-top: -45px;
+    }
+    .latest-article, .occation {
+        width: 100%;
+    }
+    .LeftBox img{
+        width: 48%;
+    }
+
+    /*=========================Single-page=======================*/
+
+    .single-page .ArticleDetails h4 div{
+        margin-right: 30px !important;
+    }
+    .Related {
+        margin-bottom: 15px;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
