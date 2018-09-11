@@ -275,7 +275,7 @@ footer ul{
     box-shadow: 0 0 0 0;
     border-radius: 0;
 }
-.subscribe-btn{
+.subscribe-btn,.brand-btn{
     /*height: 38px;
     margin-left: -20px;
     border-radius: 0;
@@ -289,9 +289,11 @@ footer ul{
     border-radius: 0;
     background: var(--brand-color);
 }
-.subscribe-btn:hover{
-    background: #d6b851;
-    border: 1px solid #d2ac2b;
+.brand-btn{
+    width: auto;
+}
+.subscribe-btn:hover,.brand-btn:hover{
+    opacity: .9;
 }
 /*.bottom-menu a{
     color: #e9c038; 
@@ -311,3 +313,67 @@ footer ul{
 .bottom-menu ul li:last-child{
     border-right: 0;
 }*/
+
+
+/*======================Category Page=====================*/
+
+.category-heading{
+    padding: 32px;
+    margin-bottom: 32px;
+    background-color: #f4f6f8;
+    border: 1px solid #ecf0f1;
+}
+
+
+/*======================About Page=====================*/
+
+.about-background{
+    background-image: url(../images/1-1.jpg);
+}
+.about-content {
+    padding: 32px;
+    margin-left: -30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    height: 100%;
+    background-color: #f4f6f8;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ecf0f1 #ecf0f1 #ecf0f1 #fff;
+}
+.about-title {
+    font-size: 32px;
+    margin-top: auto;
+}
+.about-text-container{
+    padding-top: 32px;
+    margin-bottom: 32px;
+}
+.about-text-content{
+    margin: 0 200px 0 150px;
+}
+.about-text-content p{
+    line-height: 35px;
+}
+.about-text-content p:first-child::first-letter{
+    font-size: 60px;
+    color: var(--brand-color);
+    line-height: 40px;
+    float: left;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+/*======================Contact Page=====================*/
+
+.contact-background{
+    background-image: url(../images/7.jpg);
+}
